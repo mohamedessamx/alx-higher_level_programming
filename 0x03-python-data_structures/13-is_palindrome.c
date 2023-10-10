@@ -17,7 +17,7 @@ int is_palindrome(listint_t **head)
 }
 
 /**
- * aux_pal - funct to know if is palindrome
+ * aux_pal - function to know if is palindrome
  * @head: head list
  * @end: end list
  */
