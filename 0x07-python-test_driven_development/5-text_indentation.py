@@ -14,9 +14,11 @@ def text_indentation(text):
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
-
+    
+    # Remove leading and trailing whitespaces
     text = text.strip()
 
+    # Iterate over each character in the text
     for char in text:
         print(char, end="")
         if char in (".", "?", ":"):
